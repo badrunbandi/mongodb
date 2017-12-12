@@ -1,0 +1,276 @@
+2017-12-11T17:13:13.091+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-12-11T17:13:13.091+0800 I CONTROL  [main] Error connecting to the Service Control Manager: Access is denied. (5)
+2017-12-11T17:13:19.859+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:13:20.249+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-12-11T17:13:20.250+0800 I CONTROL  [main] Error connecting to the Service Control Manager: Access is denied. (5)
+2017-12-11T17:15:17.866+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:15:18.209+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-12-11T17:15:18.209+0800 I CONTROL  [main] Error connecting to the Service Control Manager: Access is denied. (5)
+2017-12-11T17:17:37.060+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:17:37.411+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-12-11T17:17:37.411+0800 I CONTROL  [main] Error connecting to the Service Control Manager: Access is denied. (5)
+2017-12-11T17:20:40.495+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:20:40.840+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-12-11T17:20:40.843+0800 I CONTROL  [main] Service 'MongoDB' (MongoDB) installed with command line '"C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --config C:\Mean\mongodb\mongod.conf --service'
+2017-12-11T17:20:40.843+0800 I CONTROL  [main] Service can be started from the command line with 'net start MongoDB'
+2017-12-11T17:20:51.683+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:20:52.059+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] MongoDB starting : pid=1360 port=27017 dbpath=C:\Mean\mongodb\data 64-bit host=MYWSBKL344
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] db version v3.6.0
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] git version: a57d8e71e6998a2d0afde7edc11bd23e5661c915
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] modules: none
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] build environment:
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-11T17:20:52.060+0800 I CONTROL  [initandlisten] options: { config: "C:\Mean\mongodb\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Mean\mongodb\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Mean\mongodb\log\mongod.log" } }
+2017-12-11T17:20:52.062+0800 I -        [initandlisten] Detected data files in C:\Mean\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-11T17:20:52.062+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2017-12-11T17:20:52.276+0800 I STORAGE  [initandlisten] WiredTiger message [1512984052:276497][1360:140704628758224], txn-recover: Main recovery loop: starting at 1/24960
+2017-12-11T17:20:52.412+0800 I STORAGE  [initandlisten] WiredTiger message [1512984052:411888][1360:140704628758224], txn-recover: Recovering log 1 through 2
+2017-12-11T17:20:52.490+0800 I STORAGE  [initandlisten] WiredTiger message [1512984052:490614][1360:140704628758224], txn-recover: Recovering log 2 through 2
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2017-12-11T17:20:52.587+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:20:52.745+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Mean/mongodb/data/diagnostic.data'
+2017-12-11T17:20:52.746+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-12-11T17:20:52.746+0800 I STORAGE  [initandlisten] Service running
+2017-12-11T17:23:40.100+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-12-11T17:23:40.100+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2017-12-11T17:23:40.101+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2017-12-11T17:23:40.108+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2017-12-11T17:23:40.205+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2017-12-11T17:23:40.205+0800 I CONTROL  [serviceShutdown] now exiting
+2017-12-11T17:25:37.476+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:25:37.814+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-12-11T17:25:37.816+0800 I CONTROL  [main] Service 'MongoDB' (MongoDB) installed with command line '"C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --config C:\Mean\mongodb\mongod.conf --service'
+2017-12-11T17:25:37.816+0800 I CONTROL  [main] Service can be started from the command line with 'net start MongoDB'
+2017-12-11T17:25:46.578+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:25:46.916+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-12-11T17:25:46.916+0800 I CONTROL  [main] Error connecting to the Service Control Manager: Access is denied. (5)
+2017-12-11T17:27:04.721+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:27:05.071+0800 I CONTROL  [initandlisten] MongoDB starting : pid=3472 port=27017 dbpath=C:\Mean\mongodb\data 64-bit host=MYWSBKL344
+2017-12-11T17:27:05.071+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten] db version v3.6.0
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten] git version: a57d8e71e6998a2d0afde7edc11bd23e5661c915
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten] modules: none
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten] build environment:
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-11T17:27:05.072+0800 I CONTROL  [initandlisten] options: { config: "C:\Mean\mongodb\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Mean\mongodb\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Mean\mongodb\log\mongod.log" } }
+2017-12-11T17:27:05.072+0800 I -        [initandlisten] Detected data files in C:\Mean\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-11T17:27:05.073+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2017-12-11T17:27:05.244+0800 I STORAGE  [initandlisten] WiredTiger message [1512984425:244325][3472:140704628758224], txn-recover: Main recovery loop: starting at 2/7040
+2017-12-11T17:27:05.373+0800 I STORAGE  [initandlisten] WiredTiger message [1512984425:372690][3472:140704628758224], txn-recover: Recovering log 2 through 3
+2017-12-11T17:27:05.455+0800 I STORAGE  [initandlisten] WiredTiger message [1512984425:454912][3472:140704628758224], txn-recover: Recovering log 3 through 3
+2017-12-11T17:27:05.549+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:05.549+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-11T17:27:05.549+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-11T17:27:05.549+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:05.549+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:05.549+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2017-12-11T17:27:05.550+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2017-12-11T17:27:05.550+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:05.712+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Mean/mongodb/data/diagnostic.data'
+2017-12-11T17:27:05.713+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-12-11T17:27:22.194+0800 I CONTROL  [thread1] Ctrl-C signal
+2017-12-11T17:27:22.195+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-12-11T17:27:22.195+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-12-11T17:27:22.196+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-12-11T17:27:22.207+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-12-11T17:27:22.322+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-12-11T17:27:22.322+0800 I CONTROL  [consoleTerminate] now exiting
+2017-12-11T17:27:22.323+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-12-11T17:27:40.741+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:27:41.093+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10816 port=27017 dbpath=C:\Mean\mongodb\data 64-bit host=MYWSBKL344
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] db version v3.6.0
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] git version: a57d8e71e6998a2d0afde7edc11bd23e5661c915
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] modules: none
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] build environment:
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-11T17:27:41.094+0800 I CONTROL  [initandlisten] options: { config: "C:\Mean\mongodb\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Mean\mongodb\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Mean\mongodb\log\mongod.log" } }
+2017-12-11T17:27:41.095+0800 I -        [initandlisten] Detected data files in C:\Mean\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-11T17:27:41.095+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2017-12-11T17:27:41.264+0800 I STORAGE  [initandlisten] WiredTiger message [1512984461:264310][10816:140704628758224], txn-recover: Main recovery loop: starting at 3/4864
+2017-12-11T17:27:41.393+0800 I STORAGE  [initandlisten] WiredTiger message [1512984461:393200][10816:140704628758224], txn-recover: Recovering log 3 through 4
+2017-12-11T17:27:41.478+0800 I STORAGE  [initandlisten] WiredTiger message [1512984461:477838][10816:140704628758224], txn-recover: Recovering log 4 through 4
+2017-12-11T17:27:41.567+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:41.568+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-11T17:27:41.568+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-11T17:27:41.568+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:41.568+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:41.568+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2017-12-11T17:27:41.568+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2017-12-11T17:27:41.568+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:27:41.722+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Mean/mongodb/data/diagnostic.data'
+2017-12-11T17:27:41.723+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-12-11T17:27:57.896+0800 I CONTROL  [thread1] CTRL_CLOSE_EVENT signal
+2017-12-11T17:27:57.896+0800 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-12-11T17:27:57.897+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-12-11T17:27:57.897+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-12-11T17:27:57.906+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-12-11T17:27:58.037+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-12-11T17:27:58.038+0800 I CONTROL  [consoleTerminate] now exiting
+2017-12-11T17:27:58.038+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-12-11T17:31:32.475+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] MongoDB starting : pid=6428 port=27017 dbpath=C:\Mean\mongodb\data 64-bit host=MYWSBKL344
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] db version v3.6.0
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] git version: a57d8e71e6998a2d0afde7edc11bd23e5661c915
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] modules: none
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten] build environment:
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-11T17:31:33.435+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-11T17:31:33.436+0800 I CONTROL  [initandlisten] options: { config: "C:\Mean\mongodb\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Mean\mongodb\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Mean\mongodb\log\mongod.log" } }
+2017-12-11T17:31:33.437+0800 I -        [initandlisten] Detected data files in C:\Mean\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-11T17:31:33.437+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2017-12-11T17:31:33.902+0800 I STORAGE  [initandlisten] WiredTiger message [1512984693:902061][6428:140704628758224], txn-recover: Main recovery loop: starting at 4/4864
+2017-12-11T17:31:34.339+0800 I STORAGE  [initandlisten] WiredTiger message [1512984694:339239][6428:140704628758224], txn-recover: Recovering log 4 through 5
+2017-12-11T17:31:34.639+0800 I STORAGE  [initandlisten] WiredTiger message [1512984694:639047][6428:140704628758224], txn-recover: Recovering log 5 through 5
+2017-12-11T17:31:34.920+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:31:34.920+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-11T17:31:34.920+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-11T17:31:34.920+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:31:34.920+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:31:34.921+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2017-12-11T17:31:34.921+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2017-12-11T17:31:34.921+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:31:35.310+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Mean/mongodb/data/diagnostic.data'
+2017-12-11T17:31:35.481+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-12-11T17:39:43.443+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:39:44.738+0800 I CONTROL  [initandlisten] MongoDB starting : pid=9352 port=27017 dbpath=C:\Mean\mongodb\data 64-bit host=MYWSBKL344
+2017-12-11T17:39:44.738+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-11T17:39:44.738+0800 I CONTROL  [initandlisten] db version v3.6.0
+2017-12-11T17:39:44.738+0800 I CONTROL  [initandlisten] git version: a57d8e71e6998a2d0afde7edc11bd23e5661c915
+2017-12-11T17:39:44.738+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-11T17:39:44.739+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-11T17:39:44.739+0800 I CONTROL  [initandlisten] modules: none
+2017-12-11T17:39:44.739+0800 I CONTROL  [initandlisten] build environment:
+2017-12-11T17:39:44.739+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-11T17:39:44.739+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-11T17:39:44.739+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-11T17:39:44.740+0800 I CONTROL  [initandlisten] options: { config: "C:\Mean\mongodb\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Mean\mongodb\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Mean\mongodb\log\mongod.log" } }
+2017-12-11T17:39:44.751+0800 W -        [initandlisten] Detected unclean shutdown - C:\Mean\mongodb\data\mongod.lock is not empty.
+2017-12-11T17:39:44.768+0800 I -        [initandlisten] Detected data files in C:\Mean\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-11T17:39:44.769+0800 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2017-12-11T17:39:44.770+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2017-12-11T17:39:45.571+0800 I STORAGE  [initandlisten] WiredTiger message [1512985185:570823][9352:140704070325968], txn-recover: Main recovery loop: starting at 5/3200
+2017-12-11T17:39:45.586+0800 I STORAGE  [initandlisten] WiredTiger message [1512985185:586864][9352:140704070325968], txn-recover: Recovering log 5 through 6
+2017-12-11T17:39:45.837+0800 I STORAGE  [initandlisten] WiredTiger message [1512985185:837028][9352:140704070325968], txn-recover: Recovering log 6 through 6
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2017-12-11T17:39:46.193+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:39:47.932+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Mean/mongodb/data/diagnostic.data'
+2017-12-11T17:39:48.218+0800 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2017-12-11T17:39:48.336+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-12-11T17:39:52.700+0800 I CONTROL  [thread1] Ctrl-C signal
+2017-12-11T17:39:52.700+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-12-11T17:39:52.700+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-12-11T17:39:52.707+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-12-11T17:39:52.715+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-12-11T17:39:52.838+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-12-11T17:39:52.838+0800 I CONTROL  [consoleTerminate] now exiting
+2017-12-11T17:39:52.838+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-12-11T17:42:57.846+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] MongoDB starting : pid=12960 port=27017 dbpath=C:\Mean\mongodb\data 64-bit host=MYWSBKL344
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] db version v3.6.0
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] git version: a57d8e71e6998a2d0afde7edc11bd23e5661c915
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] modules: none
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] build environment:
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-11T17:42:58.234+0800 I CONTROL  [initandlisten] options: { config: "C:\Mean\mongodb\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Mean\mongodb\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Mean\mongodb\log\mongod.log" } }
+2017-12-11T17:42:58.235+0800 I -        [initandlisten] Detected data files in C:\Mean\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-11T17:42:58.235+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2017-12-11T17:42:58.411+0800 I STORAGE  [initandlisten] WiredTiger message [1512985378:410834][12960:140704070325968], txn-recover: Main recovery loop: starting at 7/5760
+2017-12-11T17:42:58.542+0800 I STORAGE  [initandlisten] WiredTiger message [1512985378:542189][12960:140704070325968], txn-recover: Recovering log 7 through 8
+2017-12-11T17:42:58.630+0800 I STORAGE  [initandlisten] WiredTiger message [1512985378:629429][12960:140704070325968], txn-recover: Recovering log 8 through 8
+2017-12-11T17:42:58.725+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:42:58.725+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-11T17:42:58.725+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-11T17:42:58.725+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:42:58.725+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:42:58.725+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2017-12-11T17:42:58.725+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2017-12-11T17:42:58.726+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:42:58.900+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Mean/mongodb/data/diagnostic.data'
+2017-12-11T17:42:58.901+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-12-11T17:43:41.947+0800 I CONTROL  [thread1] Ctrl-C signal
+2017-12-11T17:43:41.947+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-12-11T17:43:41.947+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-12-11T17:43:41.948+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-12-11T17:43:41.966+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-12-11T17:43:42.066+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-12-11T17:43:42.066+0800 I CONTROL  [consoleTerminate] now exiting
+2017-12-11T17:43:42.066+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-12-11T17:44:06.385+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] MongoDB starting : pid=11380 port=27017 dbpath=C:\Mean\mongodb\data 64-bit host=MYWSBKL344
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] db version v3.6.0
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] git version: a57d8e71e6998a2d0afde7edc11bd23e5661c915
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] modules: none
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] build environment:
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-11T17:44:06.718+0800 I CONTROL  [initandlisten] options: { config: "C:\Mean\mongodb\mongod.conf", storage: { dbPath: "C:\Mean\mongodb\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Mean\mongodb\log\mongod.log" } }
+2017-12-11T17:44:06.719+0800 I -        [initandlisten] Detected data files in C:\Mean\mongodb\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-12-11T17:44:06.719+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2017-12-11T17:44:06.873+0800 I STORAGE  [initandlisten] WiredTiger message [1512985446:872418][11380:140704070325968], txn-recover: Main recovery loop: starting at 9/4736
+2017-12-11T17:44:06.991+0800 I STORAGE  [initandlisten] WiredTiger message [1512985446:991338][11380:140704070325968], txn-recover: Recovering log 9 through 10
+2017-12-11T17:44:07.065+0800 I STORAGE  [initandlisten] WiredTiger message [1512985447:65378][11380:140704070325968], txn-recover: Recovering log 10 through 10
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2017-12-11T17:44:07.151+0800 I CONTROL  [initandlisten] 
+2017-12-11T17:44:07.310+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Mean/mongodb/data/diagnostic.data'
+2017-12-11T17:44:07.312+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-12-11T17:44:14.743+0800 I CONTROL  [thread1] Ctrl-C signal
+2017-12-11T17:44:14.743+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-12-11T17:44:14.743+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-12-11T17:44:14.744+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-12-11T17:44:14.753+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-12-11T17:44:14.855+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-12-11T17:44:14.855+0800 I CONTROL  [consoleTerminate] now exiting
+2017-12-11T17:44:14.855+0800 I CONTROL  [consoleTerminate] shutting down with code:12
